@@ -28,6 +28,33 @@ Project Highlights:
 •	Evaluated using accuracy, precision, recall, F1-score.
 •	Achieved 82% accuracy with XGBoost model.
 ________________________________________
+ Model Selection
+In this project, multiple classification algorithms were tested to determine the most effective model for predicting Titanic survival:
+1.	Logistic Regression 
+o	A baseline linear model suitable for binary classification.
+2.	Naive Bayes 
+o	Simple probabilistic classifier based on Bayes theorem.
+3.	Decision Tree Classifier 
+o	Tree-based model capable of capturing non-linear relationships.
+4.	Random Forest Classifier 
+o	Ensemble model using multiple decision trees to reduce overfitting.
+5.	Support Vector Machine (SVM) 
+o	Effective in high-dimensional spaces.
+6.	Linear Discriminant Analysis (LDA) 
+o	Linear classifier with dimensionality reduction.
+7.	XGBoost Classifier 
+o	Advanced boosting algorithm that improves accuracy and reduces bias.
+________________________________________
+Model Selection Process:
+•	Data Preprocessing: 
+o	Handled missing values, encoded categorical variables, normalized numerical data.
+•	Evaluation Metrics: 
+o	Accuracy, Precision, Recall, and F1-score were used to compare model performance.
+•	Final Model Choice: 
+o	After evaluating all models, XGBoost Classifier was selected due to its superior balance of accuracy and F1-score.
+________________________________________
+
+________________________________________
 Performance Summary:
 Model	                Accuracy  Precision	Recall	F1-score
 XGBoost	              0.8212	  0.8000	  0.7568	0.7778
