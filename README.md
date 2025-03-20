@@ -4,10 +4,10 @@ Objective
 The goal of this project is to build a machine learning model to predict whether a passenger survived the Titanic disaster based on features such as age, gender, ticket class, fare, and cabin information.
 ________________________________________
 Project Structure
-├── titanic-survival-prediction.ipynb  # Main notebook with full implementation
-├── README.md                          # Project documentation
+├── README.md                          # Main notebook with full implementation
+├── titanic-survival-prediction.ipynb  # Project documentation
 ├── requirements.txt                   # Python dependencies
-└── dataset/                           # Dataset file
+└── titanic.xlsx                       # Dataset file
 ________________________________________
 Steps to Run the Project
 1.	Clone the repository:
